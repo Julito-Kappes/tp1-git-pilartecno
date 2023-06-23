@@ -20,6 +20,11 @@ function extractValues(data) {
 
 function arrayToLengthCounters(array) {
   // Tu código aquí
+  let animales = {};
+  array.forEach((element) => {
+    animales[element] = element.length;
+  });
+  return animales;
 }
 
 /*  
